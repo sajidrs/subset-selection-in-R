@@ -1,5 +1,5 @@
 library(readr)
-parkinsons_updrs_data <- read_csv("C:/knot4u/UTD/6301/Lecture Material/Datasets/Lecture-14-Data/parkinsons_updrs-data.csv")
+parkinsons_updrs_data <- read_csv("C:/Datasets/parkinsons_updrs-data.csv")
 View(parkinsons_updrs_data)
 myData=parkinsons_updrs_data
 summary(myData)
