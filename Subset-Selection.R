@@ -161,4 +161,3 @@ out=glmnet (x,y,alpha =1, lambda =grid)
 lasso.coef=predict(out,type ="coefficients",s=bestlam )[1:20,]
 lasso.coef
 lasso.coef[lasso.coef!=0]
-savehistory("C:/knot4u/UTD/6301/Lecture Material/R Scripts/Lecture-14.Rhistory")
